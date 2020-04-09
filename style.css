@@ -1,0 +1,185 @@
+/*google font*/
+@import url('https://fonts.googleapis.com/css2?family=Karla:wght@400;700&display=swap');
+
+/*variabili colori*/
+:root {
+    --Cyan: hsl(179, 62%, 43%);
+    --Bright-Yellow: hsl(71, 73%, 54%);
+    --Light-Gray: hsl(204, 43%, 93%);
+    --Grayish-Blue: hsl(218, 22%, 67%);
+}
+
+
+@media screen and (max-width: 366px) {
+    body {
+        font-size: 14.5px;
+        font-family: 'Karla', sans-serif;
+        background-color: var(--Light-Gray);
+    }
+    
+
+    .price-grid {
+        margin: 72px auto 0px auto;
+        width: 19.438rem;
+        height: 45.25rem;
+        border-radius: 8px;
+        box-shadow: 2.5px 5px 10px hsl(229, 6%, 66%, 35%),
+                    -2.5px 5px 10px hsl(229, 6%, 66%, 35%);
+    }
+    
+    .first-section {
+        border-top-left-radius: 0.5rem;
+        border-top-right-radius: 0.5rem;
+        background-color: white;
+        padding:1.563rem;
+    }
+
+    .second-section {
+            display: flexbox;
+            height: 2.876rem;;
+    }
+        
+    .first-card {
+            background-color: #2BB3B1;
+            padding:1.563rem;
+     }
+        
+    .second-card {
+            background-color: #4ABEBD;
+            padding:1.563rem;
+            border-bottom-right-radius: 0.5rem;
+            border-bottom-left-radius: 0.5rem;
+    }
+
+    h1 {
+        margin-top: 0rem;
+        color: var(--Cyan);
+    }
+    
+    h3 {
+        color: var(--Bright-Yellow);
+        font-weight: 400;
+    }
+    
+    p{
+        color: var(--Grayish-Blue);
+    }
+    
+    .paragraph-first-section {
+        margin-bottom: 0rem;
+    }
+    
+    
+    
+    h2 {
+        color: white;
+        font-weight: 400;
+    }
+    
+    .only-button {
+        border-radius: 5px;
+        border-style: none;
+        width: 15rem;
+        height: 3rem;
+        background-color: hsl(71, 73%, 54%);
+        box-shadow: 2.5px 5px 10px hsl(229, 6%, 66%, 35%),
+        -2.5px 5px 10px hsl(229, 6%, 66%, 35%);
+        font-family: 'Karla', sans-serif;
+        font-size: 16px;
+        font-weight: 700;
+        color: white;
+    }
+    
+}
+
+@media screen and (min-width: 376px) {
+    body {
+        font-size: 16px;
+        font-family: 'Karla', sans-serif;
+        background-color: var(--Light-Gray);
+    }
+    
+
+    .price-grid {
+        margin: 163px auto 0px auto;
+        width: 39.75rem;
+        height: 29.813rem;
+        border-radius: 8px;
+        box-shadow: 2.5px 5px 10px hsl(229, 6%, 66%, 35%),
+                    -2.5px 5px 10px hsl(229, 6%, 66%, 35%);
+    }
+    
+    .first-section {
+        border-top-left-radius: 0.5rem;
+        border-top-right-radius: 0.5rem;
+        background-color: white;
+        padding:2.5rem;
+    }
+
+    .second-section {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+    }
+        
+    .first-card {
+            background-color: #2BB3B1;
+            grid-column: 1 / 1;
+            padding:2.5rem;
+            border-bottom-left-radius: 0.5rem;
+     }
+        
+    .second-card {
+            background-color: #4ABEBD;
+            grid-column: 2 / 2;
+            padding:2.5rem;
+            border-bottom-right-radius: 0.5rem;
+    }
+
+    h1 {
+        margin-top: 0rem;
+        color: var(--Cyan);
+    }
+    
+    h3 {
+        color: var(--Bright-Yellow);
+    }
+    
+    p{
+        color: var(--Grayish-Blue);
+    }
+    
+    .paragraph-first-section {
+        margin-bottom: 0rem;
+    }
+    
+    
+    
+    h2 {
+        color: white;
+        font-weight: 400;
+    }
+    
+    .only-button {
+        border-radius: 5px;
+        border-style: none;
+        width: 15rem;
+        height: 3rem;
+        background-color: hsl(71, 73%, 54%);
+        box-shadow: 2.5px 5px 10px hsl(229, 6%, 66%, 35%),
+        -2.5px 5px 10px hsl(229, 6%, 66%, 35%);
+        font-family: 'Karla', sans-serif;
+        font-size: 16px;
+        font-weight: 700;
+        color: white;
+    }
+    
+}
+
+/*stile elementi*/
+
+
+
+
+
+
+
